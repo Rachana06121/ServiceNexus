@@ -55,28 +55,28 @@ function Home() {
                 <ul className="flex space-x-5">
                   <li>
                   <a href="" target="_blank">
-                    <FaFacebookSquare className="text2xl cursor-pointer hover:scale-110 duration-200" />
+                    <FaFacebookSquare className="text2xl cursor-pointer hover:scale-110 duration-200" size={24} />
                     </a>
                   </li>
                   <li>
                     <a href="" target="_blank">
-                    <FaInstagram className="text2xl cursor-pointer hover:scale-110 duration-200" />
+                    <FaInstagram className="text2xl cursor-pointer hover:scale-110 duration-200" size={24} />
                     </a> 
                   </li>
                 
                   <li>
                   <a href="" target="_blank">
-                    <FaLinkedin className="text2xl cursor-pointer hover:scale-110 duration-200" />
+                    <FaLinkedin className="text2xl cursor-pointer hover:scale-110 duration-200" size={24}/>
                     </a>
                   </li>
                   <li>
                   <a href="" target="_blank">
-                    <FaYoutube className="text2xl cursor-pointer hover:scale-110 duration-200" />
+                    <FaYoutube className="text2xl cursor-pointer hover:scale-110 duration-200" size={24} />
                     </a>
                   </li>
                   <li>
                   <a href="" target="_blank">
-                    <FaTelegram className="text2xl cursor-pointer hover:scale-110 duration-200" />
+                    <FaTelegram className="text2xl cursor-pointer hover:scale-110 duration-200" size={24}/>
                     </a>
                   </li>
                 </ul>
