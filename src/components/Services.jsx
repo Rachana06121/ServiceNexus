@@ -4,7 +4,7 @@ import graphic from "../img/graphicdesigner.webp";
 import digital from "../img/DigitalMarketing.png";
 import content from "../img/contentwriting.png";
 import video from "../img/videoediting.jpg";
-import { Link } from "react-router-dom";
+
 
 
 
@@ -13,7 +13,7 @@ function Services() {
     {
       id: 1,
       logo: web,
-      name: "Web Devlopment",
+      name: "web Development",
       passage:
         "Our expert developers create stunning, responsive, and user-friendly websites that help your business stand out online. From simple landing pages to complex e-commerce platforms, we have the skills to bring your vision to life.",
      
@@ -37,7 +37,7 @@ function Services() {
     {
       id: 4,
       logo: content,
-      name: "Content Writing",
+      name: "Content writing",
       passage:
         "Engage your audience with high-quality, compelling content. Our team of talented writers produces SEO-friendly blog posts, articles, website content, and more, tailored to reflect your brand’s voice and message.",
    

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../img/s.png";
+import logo from "../img/jahunexus.png";
 import { TfiMenuAlt } from "react-icons/tfi";
 import { CgCloseR } from "react-icons/cg";
 import { Link } from "react-scroll";
@@ -23,11 +23,11 @@ function Navbar() {
         text:"Services"
         
     },
-    {
-        id:4,
-        text:"Members"
+    // {
+    //     id:4,
+    //     text:"Members"
         
-    },
+    // },
     {
         id:5,
         text:"Contact"
@@ -43,9 +43,9 @@ function Navbar() {
             <img src={logo} className="h-16 w-16 rounded-full" alt="logoImg" />
 
             <h1 className="font-semibold text-xl cursor-pointer">
-              <span className="text-red-500 text-2xl">S</span>ervices
+              <span className="text-red-500 text-2xl">J</span>AHU
               <span className="text-red-500 text-2xl">N</span>exus
-              <p className="text-sm">web devloper</p>
+              <p className="text-sm">Services</p>
             </h1>
           </div>
           <div>

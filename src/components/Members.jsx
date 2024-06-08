@@ -43,7 +43,7 @@ return (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-9 my-3">
               {
                   cardItem.map(({id,logo,name}) =>(
-                      <div className="md:w-[200px] md:[200px] shadow-lg hover:bg-blue-400 hover:text-white flex flex-col items-center justify-center border-[2px] p-1 cursor-pointer hover:scale-110 duration-200" key={id}>
+                      <div className="md:w-[200px] md:[200px] shadow-lg flex flex-col items-center justify-center border-[2px] p-1 cursor-pointer hover:scale-110 duration-200" key={id}>
                           <img src={logo} className="W-[150px] rounded-full" alt="img" />
                           <div>
                           <div className="font-bold mt-2 text-xl mb-8">{name}</div>

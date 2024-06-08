@@ -21,7 +21,7 @@ function Home() {
       <div name="Home" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-            <span className="md:text-2xl text-lg">Welcome to Service Nexus</span>
+            <span className="md:text-2xl text-lg">Welcome to Jahu Nexus,</span>
             <div className="flex space-x-1 text-lg md:text-4xl">
               <h1>Hello, We are</h1>
               {/* <span className="text-red-700 font-bold text-2xl md:text-4xl ">
@@ -30,7 +30,7 @@ function Home() {
 
               <ReactTyped className="text-red-700 font-bold text-lg md:text-4xl "
                 
-                strings={["Devloper","Programmer","Graphic Designer", "Digital Marketer","Video Editor","Content Writter",]}
+                strings={["Developer","Programmer","Graphic Designer", "Digital Marketing","Video Editing","Content Writing",]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
@@ -38,14 +38,10 @@ function Home() {
             </div>
             <br></br>
             <p className="text-sm md:text-md text-justify">
-              Drop servicing is a business model where you sell services to
-              clients and outsource the actual work to freelancers or other
-              companies. You act as the middleman, handling client communication
-              and quality control while making a profit from the price
-              difference between what the client pays and what you pay the
-              service provider. This model has low startup costs and is
-              scalable, but it requires careful management of service quality
-              and provider relationships.
+            Jahu Nexus is a leading drop servicing company dedicated to delivering exceptional web development, 
+            digital marketing, content writing, graphic designing, and video editing services. At Jahu Nexus, 
+            our mission is to bridge the gap between businesses and top-tier freelancers, ensuring that every 
+            project is executed with precision and creativity.
             </p>
             <br></br>
             {/*Social Media Icon */}
@@ -54,28 +50,28 @@ function Home() {
                 <h1 className="font-bold text-center">Available On</h1>
                 <ul className="flex space-x-5">
                   <li>
-                  <a href="" target="_blank">
+                  <a href="https://www.facebook.com/" target="_blank">
                     <FaFacebookSquare className="text2xl cursor-pointer hover:scale-110 duration-200" size={24} />
                     </a>
                   </li>
                   <li>
-                    <a href="" target="_blank">
+                    <a href="https://www.instagram.com/accounts/onetap/?next=%2F&hl=en" target="_blank">
                     <FaInstagram className="text2xl cursor-pointer hover:scale-110 duration-200" size={24} />
                     </a> 
                   </li>
                 
                   <li>
-                  <a href="" target="_blank">
+                  <a href="https://www.linkedin.com/feed/" target="_blank">
                     <FaLinkedin className="text2xl cursor-pointer hover:scale-110 duration-200" size={24}/>
                     </a>
                   </li>
                   <li>
-                  <a href="" target="_blank">
+                  <a href="https://youtube.com/@jahunexus?si=YgNTHqRwsDnvBptz" target="_blank">
                     <FaYoutube className="text2xl cursor-pointer hover:scale-110 duration-200" size={24} />
                     </a>
                   </li>
                   <li>
-                  <a href="" target="_blank">
+                  <a href="https://t.me/jahunexus" target="_blank">
                     <FaTelegram className="text2xl cursor-pointer hover:scale-110 duration-200" size={24}/>
                     </a>
                   </li>
@@ -88,7 +84,11 @@ function Home() {
                   <FaReact className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]" />
                   <SiMongodb className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]" />
                   <FaNodeJs className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]" />
-                  <SiExpress className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]" />
+                  {/* <SiExpress className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]" /> */}
+                  <SiHtml5 className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]" />
+                  <FaCss3Alt className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]" />
+                  <FaBootstrap className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]" />
+                  <FaPython className="text-xl md:text-3xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]" />
                 </div>
               </div>
             </div>
