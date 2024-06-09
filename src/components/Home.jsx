@@ -30,7 +30,7 @@ function Home() {
 
               <ReactTyped className="text-red-700 font-bold text-lg md:text-4xl "
                 
-                strings={["Developer","Programmer","Graphic Designer", "Digital Marketing","Video Editing","Content Writing",]}
+                strings={["Developer","Programmer","Graphic Designer", "Digital Marketer","Video Editer","Content Writer",]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
