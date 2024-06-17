@@ -1,165 +1,94 @@
 import React from "react";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
+import { FaDribbbleSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import logo from "../img/jahunexus.png";
-import { Link } from "react-scroll";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import logo01 from '../assets/logo01.png';
+import { Link } from "react-router-dom";
 
 function Footer() {
-  const footerItem = [
-    {
-      id: 1,
-      text: "Home",
-    },
-    {
-      id: 2,
-      text: "About",
-    },
-    {
-      id: 3,
-      text: "Services",
-    },
-    // {
-    //   id: 4,
-    //   text: "Members",
-    // },
-    {
-      id: 5,
-      text: "Contact",
-    },
-  ];
-
   return (
-    <>
-      <hr />
-      <footer className="py-12 bg-slate-300">
-        <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
-          <div className="items-center justify-evenly pl-20">
-            <ul className="grid grid-cols-1 justify-evenly sm:grid-cols-2 md:grid-cols-4 gap-6 sm:px-8 px:5 py:16">
-              <li>
-                <img
-                  src={logo}
-                  alt="logo"
-                  className="w-[130px] h-[130] rounded-full shadow-lg"
-                />
-                <span className="p-4 font-semibold">Jahu Nexus</span>
-              </li>
-              <li className="">
-                <h1 className="font-semibold text-2xl cursor-pointer">
-                  Address
-                </h1>
-                <span>Mumbai Maharastra</span>
+    <div className="max-w-[1240] mx-auto py-16 px-9 grid lg:grid-cols-3 gap-9 text-gray-200">
 
-                <h1 className="mt-4 font-semibold text-2xl cursor-pointer ">
-                  Contact On
-                </h1>
-                <span className="font-medium">Email - </span>
-                
-                  <a href="jahunexus@gmail.com"> jahunexus@gmail.com</a>
-                
-                <br></br>
-                <span className="font-medium">Mobile No- </span>
-                <span>+91 | 9137126163</span>
-              </li>
-              <li>
-                <h1 className="font-semibold text-2xl cursor-pointer">
-                  Services
-                </h1>
-                <a className="font-medium cursor-pointer hover:scale-105 duration-200 hover:font-semibold">
-                  Web Devlopment
-                </a>
-                <br />
-                <a className="font-medium cursor-pointer hover:scale-105 duration-200 hover:font-semibold">
-                  Graphic Designer
-                </a>
-                <br />
-                <a className="font-medium cursor-pointer hover:scale-105 duration-200 hover:font-semibold">
-                  Digital Marketing
-                </a>
-                <br />
-                <a className="font-medium cursor-pointer hover:scale-105 duration-200 hover:font-semibold">
-                  Content Writing
-                </a>
-                <br />
-                <a className="font-medium cursor-pointer hover:scale-105 duration-200 hover:font-semibold">
-                  Video Editing
-                </a>
-              </li>
-              <li className="font-medium cursor-pointer">
-                {footerItem.map(({ id, text }) => (
-                  <li
-                    className="hover:scale-105 duration-200 cursor-pointer  hover:font-semibold"
-                    key={id}
-                  >
-                    <Link
-                      to={text}
-                      smooth={true}
-                      duration={500}
-                      offset={-70}
-                      activeClass="active"
-                    >
-                      {text}
-                    </Link>
-                  </li>
-                ))}
-              </li>
-            </ul>
-          </div>
-          <div className="mt-8 border-t  border-gray-700 pt-8 flex flex-col items-center mb-5 font-bold text-2xl">
-            Follow Us
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <div className="flex space-x-4 ">
-              <a href="https://www.facebook.com/" target="_blank">
-                <FaFacebookSquare
-                  className="text2xl cursor-pointer hover:scale-110 duration-200"
-                  size={24}
-                />
-              </a>
-              <a href="https://www.instagram.com/accounts/onetap/?next=%2F&hl=en" target="_blank">
-                <FaInstagram
-                  className="text2xl cursor-pointer hover:scale-110 duration-200"
-                  size={24}
-                />
-              </a>
-              <a href="https://www.linkedin.com/feed/" target="_blank">
-                <FaLinkedin
-                  className="text2xl cursor-pointer hover:scale-110 duration-200"
-                  size={24}
-                />
-              </a>
-              <a href="https://t.me/jahunexus " target="_blank">
-                <FaTelegram
-                  className="text2xl cursor-pointer hover:scale-110 duration-200"
-                  size={24}
-                />
-              </a>
-              <a href="https://x.com/JahuNexus?t=CocqxaWw_1RbuQEp9E_9XQ&s=08 " target="_blank">
-                <FaTwitter
-                  className="text2xl cursor-pointer hover:scale-110 duration-200"
-                  size={24}
-                />
-              </a>
-              <a href="https://youtube.com/@jahunexus?si=YgNTHqRwsDnvBptz" target="_blank">
-                <FaYoutube
-                  className="text2xl cursor-pointer hover:scale-110 duration-200"
-                  size={24}
-                />
-              </a>
-            </div>
-            <div className="mt-8 border-t  border-gray-700 pt-8 flex flex-col items-center">
-              <p className="text-sm">
-                &copy; 2024 Your Company, All right reserved.
-              </p>
-              {/* <p className="text-sm">partners name</p> */}
-            </div>
-          </div>
+      <div className="">
+      <div className='flex gap-2 '>
+        <img src={logo01} className='w-[100px] rounded-full'/>
+        <h1 className="w-full text-5xl font-bold text-[#47ffff] pt-9">Jahu Nexus</h1>
+    
         </div>
-      </footer>
-    </>
+
+        <div className="grid lg:grid-cols-2">
+        <p className="py-2">
+          <h1 className="font-semibold text-xl">Address</h1>
+          <h3>Mumbai Maharastra</h3>
+        </p>
+
+        <p className="py-2">
+          <h1 className="font-semibold text-xl">Contact On</h1>
+          <h3>Email - jahunexus@gmail.com</h3>
+          <h3>Mobile No- +91 | 9137126163</h3>
+        </p>
+        </div>
+
+        <p className="mt-8 border-t  border-gray-700 pt-8 flex flex-col items-center mb-4 font-bold text-2xl">
+          Follow us
+        </p>
+
+
+        <div className="flex mx-12 justify-between md:w-[75%] my-1">
+        <a href="https://www.facebook.com/share/i1yYGg1nuhpySE6m/?mibextid=qi2Omg" target="_blank"><FaSquareFacebook size={24} /></a>
+        <a href="https://www.instagram.com/accounts/onetap/?next=%2F&hl=en" target="_blank"><IoLogoInstagram size={24} /></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank"><FaLinkedin size={24} /></a>
+        <a href="https://t.me/jahunexus" target="_blank"><FaTelegram size={24} /></a>
+        <a href="https://youtube.com/@jahunexus?si=YgNTHqRwsDnvBptz" target="_blank"><FaYoutube size={24} /></a>
+        <a href="https://github.com/Rachana06121" target="_blank"><FaGithub size={24} /></a>
+         
+        <a href="https://x.com/JahuNexus?t=CocqxaWw_1RbuQEp9E_9XQ&s=08 " target="_blank"><FaSquareXTwitter size={24} /></a>
+        </div>
+      </div>
+
+      <div className="lg:col-span-2 grid md:grid-cols-3 px-7 mx-7 justify-between mt-2 p-1 ">
+        
+
+  
+
+        <div className="m-9">
+          <h6 className="font-medium text-xl border-b border-gray-100 pb-2 text-gray-200">Company</h6>
+          <ul>
+          <a href="/AboutUs"><li className="py-2 text-sm">About Us</li></a>
+            <a href="/Blogs"><li className="py-2 text-sm">Blog</li></a>
+            <a href="/Jobs"><li className="py-2 text-sm">jobs</li></a>
+            <a href="/Jobs"><li className="py-2 text-sm">Careers</li></a>
+          </ul>
+        </div>
+
+        <div className="m-9">
+          <h6 className="font-medium text-xl border-b border-gray-100 pb-2 text-gray-200">Services</h6>
+          <ul>
+            <a href="/Services"><li className="py-2 text-sm">Web Development</li></a>
+            <a href="/Services"><li className="py-2 text-sm">Graphic Designer</li></a>
+            <a href="/Services"><li className="py-2 text-sm">Digital Marketing</li></a>
+            <a href="/Services"><li className="py-2 text-sm">Video Editing</li></a>
+            <a href="/Services"><li className="py-2 text-sm">Content writing</li></a>
+          </ul>
+        </div>
+
+        <div className="m-9">
+          <h6 className="font-medium text-xl border-b border-gray-100 pb-2 text-gray-200">Legal</h6>
+          <ul>
+            <li className="py-2 text-sm">Claim</li>
+            <li className="py-2 text-sm">Policy</li>
+            <li className="py-2 text-sm">Terms</li>
+          </ul>
+        </div>
+        
+      </div>
+      
+    </div>
   );
 }
 

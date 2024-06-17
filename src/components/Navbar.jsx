@@ -1,99 +1,55 @@
-import React, { useState } from "react";
-import logo from "../img/jahunexus.png";
-import { TfiMenuAlt } from "react-icons/tfi";
-import { CgCloseR } from "react-icons/cg";
-import { Link } from "react-scroll";
+import React,{useState} from 'react'
+import { CgMenuRight } from "react-icons/cg";
+import { IoMdCloseCircleOutline } from "react-icons/io";
+import { Link } from 'react-router-dom';
+import logo01 from '../assets/logo01.png'
 
 function Navbar() {
-  const [menu, setMenu] = useState(false);
 
-  const navItems=[
-    {
-        id:1,
-        text:"Home"
-        
-    },
-    {
-        id:2,
-        text:"About"
-        
-    },
-    {
-        id:3,
-        text:"Services"
-        
-    },
-    // {
-    //     id:4,
-    //     text:"Members"
-        
-    // },
-    {
-        id:5,
-        text:"Contact"
-        
-    },
-  ]
+    const [nav, setNav] = useState(false);
 
+    const handleNav = () => {
+        setNav(!nav)
+    }
   return (
-    <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex space-x-4">
-            <img src={logo} className="h-16 w-16 rounded-full" alt="logoImg" />
-
-            <h1 className="font-semibold text-xl cursor-pointer">
-              <span className="text-red-500 text-2xl">J</span>AHU
-              <span className="text-red-500 text-2xl">N</span>exus
-              <p className="text-sm">Services</p>
-            </h1>
-          </div>
-          <div>
-            <ul className="hidden md:flex space-x-8 text-lg">
-              {
-                navItems.map(({id, text}) =>(
-                    <li  className="hover:scale-105 duration-200 cursor-pointer  hover:font-semibold" key={id}>
-                        <Link to={text}
-                        smooth={true}
-                        duration={500}
-                        offset={-70}
-                        activeClass="active"
-                        >{text}</Link>
-                        </li>
-                ))
-              }
-            </ul>
-
-            <div onClick={() => setMenu(!menu)} className="md:hidden">
-              {menu ? <CgCloseR size={24} /> : <TfiMenuAlt size={24} />}
-            </div>
-          </div>
+    <div className="flex fixed top-0 left-0 right-0 bg-[#001834] justify-between items-center h-24 w-full z-50 mx-auto px-4 text-white">
+        <div className='flex gap-2 px-9 '>
+        <img src={logo01} className='w-[50px] rounded-full'/>
+        <h1 className="w-full text-3xl font-bold text-[#47ffff] pt-2">Jahu Nexus</h1>
+    
         </div>
-        {/* moblie nevbar */}
 
-        {menu && (
-          <div>
-            <ul className="md:hidden flex flex-col h-52 items-center justify-center space-y-2 text-lg cursor-pointer">
-            {
-                navItems.map(({id, text}) =>(
-                    <li className="hover:scale-105 duration-200 cursor-pointer hover:font-semibold" key={id}>
-                        <Link 
-                        onClick={() => setMenu(!menu)}
-                        to={text}
-                        smooth={true}
-                        duration={500}
-                        offset={-70}
-                        activeClass="active"
-                        >{text}</Link>
-                        </li>
-                ))
-              }
+        <ul className="md:flex hidden px-9">
+            <Link to={"/"}><li className="p-4">Home</li></Link>
+            <Link to={"/company"}><li className="p-4">Company</li></Link>
+            <Link to={"/Services"}><li className="p-4">Services</li></Link>
+            <Link to={"/aboutUs"}><li className="p-4">AboutUs</li></Link>
+            <Link to={"/projects"}><li className="p-4">Projects</li></Link>
+            <Link to={"/contact"}><li className="p-4 bg-[#47ffff] w-[100px] rounded-full px-5 text-black">Contact</li></Link>
+            
+        </ul>
+        <div onClick={handleNav} className="block md:hidden">
+            {nav ? <IoMdCloseCircleOutline size={24}/> : <CgMenuRight size={24}/> }
+            
+        </div>
+
+        <div className={nav ? "fixed left-0 top-0 w-[60%] border-r border-r-gray-900 h-full bg-[#001834] ease-in-out duration-500" : "fixed left-[-100%] "}>
+        <div className='flex gap-1 '>
+        <img src={logo01} className='w-[40px] h-[40px] mt-7 mx-2 rounded-full'/>
+        <h1 className="w-full text-2xl font-bold text-[#00df9a] mt-7">Jahu Nexus</h1>
+    
+        </div>
+            <ul className='pt-12 uppercase p-4 '>
+            <Link to={"/"}><li className="p-4 border-b border-gray-600">Home</li></Link>
+            <Link to={"/company"}><li className="p-4 border-b border-gray-600">Company</li></Link>
+            <Link to={"/Services"}><li className="p-4 border-b border-gray-600">Services</li></Link>
+            <Link to={"/aboutUs"}><li className="p-4 border-b border-gray-600">AboutUs</li></Link>
+            <Link to={"/projects"}><li className="p-4 border-b border-gray-600">Projects</li></Link>
+            <Link to={"/contact"}><li className="p-4 bg-[#47ffff] w-[100px] rounded-full px-3 py-5 m-2 text-black">Contact</li></Link>
             </ul>
-          </div>
-        )}
-      </div>
-    </>
-  );
+        </div>
+    </div>
+  )
 }
 
-export default Navbar;
+export default Navbar
