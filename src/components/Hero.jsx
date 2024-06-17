@@ -99,9 +99,9 @@ function Hero() {
               project management, allowing our clients to focus on their core
               business operations.
             </p>
-            <Link className="my-2 md:mx-0 mx-auto py-1" to="/AboutUs">
+            <Link className="my-2 md:mx-0 mx-auto py-1" to="/AboutUs" target="_top">
               <button className="bg-black text-[#47ffff] w-[200px] rounded-lg font-medium my-6 md:mx-0 mx-auto py-3">
-                Get Started
+                About Us
               </button>
             </Link>
           </div>
@@ -168,7 +168,7 @@ function Hero() {
               </p>
             </div>
 
-            <Link className="my-1 mx-auto px-1 py-1" to="/Services">
+            <Link className="my-1 mx-auto px-1 py-1" to="/Services" target="_top">
               <button className="bg-[#47ffff] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
                 Learn More
               </button>
@@ -194,7 +194,7 @@ function Hero() {
               </p>
             </div>
 
-            <Link className="my-1 mx-auto px-1 py-1" to="/Services">
+            <Link className="my-1 mx-auto px-1 py-1" to="/Services" target="_top">
               <button className="bg-[#47ffff] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
                 Learn More
               </button>
@@ -220,7 +220,7 @@ function Hero() {
               </p>
             </div>
 
-            <Link className="my-1 mx-auto px-1 py-1" to="/Services">
+            <Link className="my-1 mx-auto px-1 py-1" to="/Services" target="_top">
               <button className="bg-[#47ffff] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
                 Learn More
               </button>
@@ -246,7 +246,7 @@ function Hero() {
               </p>
             </div>
 
-            <Link className="my-1 mx-auto px-1 py-1" to="/Services">
+            <Link className="my-1 mx-auto px-1 py-1" to="/Services" target="_top">
               <button className="bg-[#47ffff] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
                 Learn More
               </button>
@@ -272,7 +272,7 @@ function Hero() {
               </p>
             </div>
 
-            <Link className="my-1 mx-auto px-1 py-1" to="/Services">
+            <Link className="my-1 mx-auto px-1 py-1" to="/Services" target="_top">
               <button className="bg-[#47ffff] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
                 Learn More
               </button>

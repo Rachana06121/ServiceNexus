@@ -20,12 +20,12 @@ function Navbar() {
         </div>
 
         <ul className="md:flex hidden px-9">
-            <Link to={"/"}><li className="p-4">Home</li></Link>
-            <Link to={"/company"}><li className="p-4">Company</li></Link>
-            <Link to={"/Services"}><li className="p-4">Services</li></Link>
-            <Link to={"/aboutUs"}><li className="p-4">AboutUs</li></Link>
-            <Link to={"/projects"}><li className="p-4">Projects</li></Link>
-            <Link to={"/contact"}><li className="p-4 bg-[#47ffff] w-[100px] rounded-full px-5 text-black">Contact</li></Link>
+            <Link to={"/"} target="_top"><li className="p-4">Home</li></Link>
+            <Link to={"/company"} target="_top"><li className="p-4">Company</li></Link>
+            <Link to={"/Services"} target="_top"><li className="p-4">Services</li></Link>
+            <Link to={"/aboutUs"} target="_top"><li className="p-4">AboutUs</li></Link>
+            <Link to={"/projects"} target="_top"><li className="p-4">Projects</li></Link>
+            <Link to={"/contact"} target="_top"><li className="p-4 bg-[#47ffff] w-[100px] rounded-full px-5 text-black">Contact</li></Link>
             
         </ul>
         <div onClick={handleNav} className="block md:hidden">
@@ -40,12 +40,12 @@ function Navbar() {
     
         </div>
             <ul className='pt-12 uppercase p-4 '>
-            <Link to={"/"}><li className="p-4 border-b border-gray-600">Home</li></Link>
-            <Link to={"/company"}><li className="p-4 border-b border-gray-600">Company</li></Link>
-            <Link to={"/Services"}><li className="p-4 border-b border-gray-600">Services</li></Link>
-            <Link to={"/aboutUs"}><li className="p-4 border-b border-gray-600">AboutUs</li></Link>
-            <Link to={"/projects"}><li className="p-4 border-b border-gray-600">Projects</li></Link>
-            <Link to={"/contact"}><li className="p-4 bg-[#47ffff] w-[100px] rounded-full px-3 py-5 m-2 text-black">Contact</li></Link>
+            <Link to={"/"} target="_top"><li className="p-4 border-b border-gray-600">Home</li></Link>
+            <Link to={"/company"} target="_top"><li className="p-4 border-b border-gray-600">Company</li></Link>
+            <Link to={"/Services"} target="_top"><li className="p-4 border-b border-gray-600">Services</li></Link>
+            <Link to={"/aboutUs"} target="_top"><li className="p-4 border-b border-gray-600">AboutUs</li></Link>
+            <Link to={"/projects"} target="_top"><li className="p-4 border-b border-gray-600">Projects</li></Link>
+            <Link to={"/contact"} target="_top"><li className="p-4 bg-[#47ffff] w-[100px] rounded-full px-3 py-5 m-2 text-black">Contact</li></Link>
             </ul>
         </div>
     </div>

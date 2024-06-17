@@ -1,5 +1,10 @@
 import React from "react";
 import business from "../assets/business.png";
+import web02 from "../assets/web02.png";
+import video02 from "../assets/video02.jpeg";
+import content02 from "../assets/content02.jpeg";
+import market02 from "../assets/market02.jpg";
+import design02 from "../assets/design02.jpg";
 import Contact from "./Contact";
 
 function Services() {
@@ -56,8 +61,8 @@ function Services() {
 
           <div className="order-1">
             <img
-              className="w-[500px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
-              src={business}
+              className="w-[500px] lg:h-[350px] md:h-[350px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
+              src={web02}
               alt="/"
             />
           </div>
@@ -68,8 +73,8 @@ function Services() {
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 border-b border-gray-300">
           <div className="order-1 mt-3">
             <img
-              className="w-[500px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
-              src={business}
+              className="w-[500px] lg:h-[350px] md:h-[350px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
+              src={market02}
               alt="/"
             />
           </div>
@@ -135,8 +140,8 @@ function Services() {
 
           <div className="order-1 mt-3">
             <img
-              className="w-[500px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
-              src={business}
+              className="w-[500px] lg:h-[350px] md:h-[350px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
+              src={design02}
               alt="/"
             />
           </div>
@@ -145,8 +150,8 @@ function Services() {
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 border-b border-gray-300">
           <div className="order-1 mt-3">
             <img
-              className="w-[500px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
-              src={business}
+              className="w-[500px] lg:h-[350px] md:h-[400px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
+              src={content02}
               alt="/"
             />
           </div>
@@ -218,8 +223,8 @@ function Services() {
 
           <div className="order-1 mt-3">
             <img
-              className="w-[500px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
-              src={business}
+              className="w-[530px] lg:h-[350px] md:h-[400px] mx-auto my-4 lg:my-11 md:my-10 rounded-md"
+              src={video02}
               alt="/"
             />
           </div>
