@@ -36,7 +36,7 @@ function Navbar() {
         <div className={nav ? "fixed left-0 top-0 w-[60%] border-r border-r-gray-900 h-full bg-[#001834] ease-in-out duration-500" : "fixed left-[-100%] "}>
         <div className='flex gap-1 '>
         <img src={logo01} className='w-[40px] h-[40px] mt-7 mx-2 rounded-full'/>
-        <h1 className="w-full text-2xl font-bold text-[#00df9a] mt-7">Jahu Nexus</h1>
+        <h1 className="w-full text-2xl font-bold text-[#47ffff] mt-7">Jahu Nexus</h1>
     
         </div>
             <ul className='pt-12 uppercase p-4 '>
