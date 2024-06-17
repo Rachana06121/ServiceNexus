@@ -59,21 +59,21 @@ function Footer() {
         <div className="m-9">
           <h6 className="font-medium text-xl border-b border-gray-100 pb-2 text-gray-200">Company</h6>
           <ul>
-          <Link to="/AboutUs" target="_top"><li className="py-2 text-sm">About Us</li></Link>
-            <Link to="/Blogs" target="_top"><li className="py-2 text-sm">Blog</li></Link>
-            <Link to="/Jobs" target="_top"><li className="py-2 text-sm">jobs</li></Link>
-            <Link to="/Jobs" target="_top"><li className="py-2 text-sm">Careers</li></Link>
+          <Link to="/AboutUs" target="_parent"><li className="py-2 text-sm">About Us</li></Link>
+            <Link to="/Blogs" target="_parent"><li className="py-2 text-sm">Blog</li></Link>
+            <Link to="/Jobs" target="_parent"><li className="py-2 text-sm">jobs</li></Link>
+            <Link to="/Jobs" target="_parent"><li className="py-2 text-sm">Careers</li></Link>
           </ul>
         </div>
 
         <div className="m-9">
           <h6 className="font-medium text-xl border-b border-gray-100 pb-2 text-gray-200">Services</h6>
           <ul>
-            <Link to="/Services" target="_top"><li className="py-2 text-sm">Web Development</li></Link>
-            <Link  to="/Services" target="_top"><li className="py-2 text-sm">Graphic Designer</li></Link>
-            <Link  to="/Services" target="_top"><li className="py-2 text-sm">Digital Marketing</li></Link>
-            <Link to="/Services" target="_top"><li className="py-2 text-sm">Video Editing</li></Link>
-            <Link  to="/Services" target="_top"><li className="py-2 text-sm">Content writing</li></Link>
+            <Link to="/Services" target="_parent"><li className="py-2 text-sm">Web Development</li></Link>
+            <Link  to="/Services" target="_parent"><li className="py-2 text-sm">Graphic Designer</li></Link>
+            <Link  to="/Services" target="_parent"><li className="py-2 text-sm">Digital Marketing</li></Link>
+            <Link to="/Services" target="_parent"><li className="py-2 text-sm">Video Editing</li></Link>
+            <Link  to="/Services" target="_parent"><li className="py-2 text-sm">Content writing</li></Link>
           </ul>
         </div>
 
