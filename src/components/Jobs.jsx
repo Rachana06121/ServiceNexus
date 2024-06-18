@@ -25,14 +25,13 @@ function Jobs() {
         </div>
       </div>
 
-    <div className="bg-white p-3">
-      <h1 className="pt-10 pb-10 md:text-4xl sm:text-2xl bg-white text-xl font-semibold items-center justify-center text-center">
+      <div className="bg-white p-3">
+        <h1 className="pt-10 pb-10 md:text-4xl sm:text-2xl bg-white text-xl font-semibold items-center justify-center text-center">
           Why Work with Us?
         </h1>
 
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2  ">
           <div className="flex flex-col justify-center mx-4 mb-3 mt-1 order-2 md:order-1">
-            
             <ul>
               <li>
                 <span className="font-bold">1. Innovative Environment:</span>
@@ -75,7 +74,6 @@ function Jobs() {
 
         <div>
           <h1 className="pt-10 pb-10 md:text-4xl sm:text-2xl text-xl font-semibold items-center justify-center text-center">
-            
             Current Job Openings
           </h1>
           <ul className="md:text-lg sm:text-xl text-sm mx-5 md:mx-20 lg:mx-28">
@@ -155,25 +153,24 @@ function Jobs() {
                 (e.g., Adobe Premiere, Final Cut Pro), and attention to detail.
               </p>
             </li>
-
-            <li>
-              <h1 className="pt-10 pb-10 md:text-4xl sm:text-2xl text-xl font-semibold items-center justify-center text-center">How to Apply</h1>
-              <p className="font-medium mt-3 pb-5">
-                If you are passionate about Dream's and want to make a
-                difference, we would love to hear from you! Please send your
-                resume and a cover letter to jahunexus@gmail.com with the
-                subject line "Job Application - [Position Title]."
-              </p>
-            </li>
           </ul>
-
-          <Contact></Contact>
+        </div>
         </div>
 
+        <div className="text-white">
+        <h1 className="pt-10 pb-10 md:text-5xl sm:text-4xl text-xl font-semibold items-center justify-center text-center" >
+          How to Apply
+        </h1>
+        <p className="font-medium mt-2 md:text-2xl sm:text-xl text-lg py-2 px-3 lg:px-9 md:px-8 items-center justify-center text-center">
+          If you are passionate about Dream's and want to make a difference, we
+          would love to hear from you! Please send your resume and a cover
+          letter to jahunexus@gmail.com with the subject line "Job Application -
+          [Position Title]."
+        </p>
+        </div>
 
-    </div>
-
-
+        <Contact></Contact>
+     
     </div>
   );
 }

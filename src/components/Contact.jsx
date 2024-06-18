@@ -1,11 +1,5 @@
 import React from "react";
 
-import { FaMailBulk } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
-import { IoMdContact } from "react-icons/io";
-import { FaMapLocationDot } from "react-icons/fa6";
-import { CiLocationArrow1 } from "react-icons/ci";
-
 function Contact() {
 
     const [result, setResult] = React.useState("");

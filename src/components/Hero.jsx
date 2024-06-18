@@ -2,9 +2,6 @@ import React from "react";
 import { ReactTyped, Typed } from "react-typed";
 import laptop from "../assets/computer.png";
 import { Link } from "react-router-dom";
-import single from "../assets/single.jpg";
-import triple from "../assets/triple.jpg";
-import double from "../assets/double.png";
 import content from "../assets/content.jpeg";
 import designer from "../assets/designer.jpg";
 import market from "../assets/market.jpg";
@@ -126,6 +123,7 @@ function Hero() {
                   type="email"
                   name="email"
                   placeholder="Enter Your Email"
+                  required
                 />
                 <button
                   type="submit"
@@ -272,7 +270,7 @@ function Hero() {
               </p>
             </div>
 
-            <Link className="my-1 mx-auto px-1 py-1" to="/Services" target="_top">
+            <Link className="my-1 mx-auto px-1 py-1" to="/Services" target="_top" >
               <button className="bg-[#47ffff] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
                 Learn More
               </button>

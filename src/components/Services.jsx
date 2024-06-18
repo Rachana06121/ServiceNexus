@@ -1,5 +1,4 @@
 import React from "react";
-import business from "../assets/business.png";
 import web02 from "../assets/web02.png";
 import video02 from "../assets/video02.jpeg";
 import content02 from "../assets/content02.jpeg";
@@ -33,7 +32,7 @@ function Services() {
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 border-b border-gray-300">
           <div className="flex flex-col justify-center mx-4 mb-3 mt-1 order-2 md:order-1">
             <div className="md:mt-[-1rem] lg:mt-[-1rem] mt-1 ">
-              <h1 className="font-semibold md:text-3xl sm:text-2xl text-xl mb-2 text-center underline ">
+              <h1 className="font-semibold md:text-3xl sm:text-2xl text-xl mb-2 text-center">
                 Web Development
               </h1>
               <p className="md:text-lg sm:text-lg text-sm font-medium mt-2">
