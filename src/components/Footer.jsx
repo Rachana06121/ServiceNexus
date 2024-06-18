@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import logo from "../img/jahunexus.png";
+import logo from "../img/jahunexus1.png";
 import { Link } from "react-scroll";
 
 function Footer() {
@@ -24,7 +24,7 @@ function Footer() {
     },
     // {
     //   id: 4,
-    //   text: "Members",
+    //   text: "Blogs",
     // },
     {
       id: 5,
@@ -62,7 +62,7 @@ function Footer() {
                 
                 <br></br>
                 <span className="font-medium">Mobile No- </span>
-                <span>+91 | 9137126163</span>
+                <span>+91  9137126163</span>
               </li>
               <li>
                 <h1 className="font-semibold text-2xl cursor-pointer">

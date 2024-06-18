@@ -7,6 +7,7 @@ import Members from './components/Members';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Toaster } from 'react-hot-toast';
+import Blogs from './components/Blogs';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <About></About>
     <Services></Services>
     {/* <Members></Members> */}
+    {/* <Blogs></Blogs> */}
     <Contact></Contact>
     <Footer></Footer>
     </div>

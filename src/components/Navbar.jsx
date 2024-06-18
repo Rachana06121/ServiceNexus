@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../img/jahunexus.png";
+import logo from "../img/jahunexus1.png";
 import { TfiMenuAlt } from "react-icons/tfi";
 import { CgCloseR } from "react-icons/cg";
 import { Link } from "react-scroll";
@@ -25,7 +25,7 @@ function Navbar() {
     },
     // {
     //     id:4,
-    //     text:"Members"
+    //     text:"Blogs"
         
     // },
     {
